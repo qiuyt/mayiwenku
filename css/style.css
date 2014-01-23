@@ -1,0 +1,172 @@
+/* =Reset
+-------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,"Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
+
+/* =Common
+-------------------------------------------------------------- */
+.left{float:left;}
+.right{float:right;}
+.clear{clear: both;}
+.marginTop40{margin-top:40px;}
+
+body{background: #ECECEC;}
+/* =Header
+-------------------------------------------------------------- */
+#my-header{
+	background:#179E93;
+	width:100%;
+    min-width: 1040px;
+	height:28px;
+	opacity:0.8;
+	border-bottom:1px double #BD2800;	
+}
+.my-site-title{
+	font-size: 14px;
+	line-height:28px;
+	font-weight:bolder;
+	float: left;
+	margin-left: 20px;
+}
+.my-site-title a {
+	color: white;
+	text-decoration: none;
+}
+/*
+.my-navigation{
+	position:absolute;
+	top:0; left:150px;
+}
+.my-navigation li{
+	float:left;
+	line-height:28px;
+	width:100px;
+	text-align:center;
+}
+.my-navigation li a{
+	color:white;
+	text-decoration:none;
+	font-size:12px;
+}
+.my-navigation .current_page_item{
+	background:#BD2800;
+}
+*/
+#my-searchform{
+	float: right;
+	border:1px solid #BB0604;
+	height:22px;
+	background:white;
+	width:210px;
+	margin-top: 2px;
+	margin-right: 20px;
+}
+#my-s{
+	border:0;
+	height:18px;
+	width:180px;
+	color: #666666;
+}
+#my-searchsubmit{
+	width:20px;
+	height:22px;
+	background:url(../images/search.png) no-repeat 0 1px;
+	float:right;
+	cursor:pointer;
+}
+/* =Body(首页)
+-------------------------------------------------------------- */
+#block1,#block2{
+	margin-top: 4px;
+    min-width: 1040px;
+}
+.block-header{
+	height:30px;
+	line-height:30px;
+	font-size:13px;
+	font-weight:bold;
+	color:#BD2800;  /*842638*/
+	text-shadow: 4px 4px 4px #c5c5c5;
+	border-bottom:1px dashed #ccc;
+	padding-left: 20px;
+}
+
+.subBlock{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 200px;
+	padding: 6px;
+	border: 1px solid #c5c5c5;
+	border-radius: 8px;
+	box-shadow: 2px 2px 4px #c5c5c5;
+}
+.subBlockTitle{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bolder;
+	border-bottom: 1px dashed #c5c5c5;
+}
+.subBlockTitle a{
+	color: #006ED6;
+	text-decoration: none;
+}
+.subBlockTags{
+	height: 30px;
+	line-height: 30px;
+	color: gray;
+	font-size: 12px;
+	font-weight: normal;
+}
+.subBlockSummary{
+	line-height: 24px;
+	font-size: 12px;
+	font-weight: normal;
+}
+/* =Body(文章页)
+-------------------------------------------------------------- */
+.articleTitle{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #842638;
+	text-shadow: 3px 3px 4px #c5c5c5;
+}
+.articleTags{
+	height: 24px;
+	line-height: 24px;
+	padding-left: 10px;
+	margin: 0 20px 20px 20px;
+	color: gray;
+	font-size: 12px;
+	font-weight: normal;
+	border: 1px dashed #c5c5c5;
+	border-radius: 8px;
+}
+.articleContent div{
+	margin: 0 20px 0 20px;
+	line-height: 36px;
+	font-weight: normal;
+	font-size: 15px;
+	color: #2F2F2F;
+}
+.articleContent div.chapterTitleDiv{
+	margin: 0;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	font-weight: bolder;
+	color: black;
+	text-shadow: 3px 3px 4px #c5c5c5;
+}
+.articleContent div.chapterTitleDiv span{margin: auto 6px;}
